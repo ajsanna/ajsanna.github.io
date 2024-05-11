@@ -5,9 +5,66 @@
 body {
     background-color: powderblue;
 }
-#Header{
+.Header{
     background-color: azure;
+    border-radius: 10px;
+    top: 0;
+    right: 20px;
+    left: 20px;
 }
+
+.pfp-container
+{
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: seagreen;
+    float: left;
+    min-height: 1px;
+    width: 375px;
+    height: 510px;
+}
+.pfp-container img
+{
+    border: 5px solid #555;
+    border-radius: 10px;
+    width: 20%;
+    position: absolute;
+    left: 4.5%;
+}
+.Contact-Info{
+    position: absolute;
+    top: 630px;
+}
+.git img{
+    border: 1px solid #555;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-left: 30px ;
+}
+.in img{
+    border: 1px solid #555;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-left: 110px ;
+}
+.ig img{
+    border: 1px solid #555;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-left: 190px ;
+}
+
+.mail img{
+    border: 1px solid #555;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-left: 270px ;
+}
+
 #name{
     color: forestgreen;
     font-size: xxx-large;
