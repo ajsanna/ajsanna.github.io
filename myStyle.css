@@ -23,13 +23,14 @@ body {
     width: 375px;
     height: 510px;
 }
-.pfp-container img
-{
+
+.PFP{
     border: 5px solid #555;
     border-radius: 10px;
-    width: 20%;
+    width: 290px;
     position: absolute;
-    left: 4.5%;
+    margin-left: 38px;
+
 }
 .Contact-Info{
     position: absolute;
@@ -41,6 +42,8 @@ body {
     height: 70px;
     position: absolute;
     margin-left: 30px ;
+    border-radius: 10px;
+
 }
 .in img{
     border: 1px solid #555;
@@ -48,6 +51,8 @@ body {
     height: 70px;
     position: absolute;
     margin-left: 110px ;
+    border-radius: 10px;
+
 }
 .ig img{
     border: 1px solid #555;
@@ -55,6 +60,8 @@ body {
     height: 70px;
     position: absolute;
     margin-left: 190px ;
+    border-radius: 10px;
+
 }
 
 .mail img{
@@ -63,6 +70,8 @@ body {
     height: 70px;
     position: absolute;
     margin-left: 270px ;
+    border-radius: 10px;
+
 }
 
 #name{
@@ -71,6 +80,7 @@ body {
     font-family: "American Typewriter", sans-serif;
     text-align: left;
     text-indent: 20px;
+    
 }
 p {
     color: darkblue;
