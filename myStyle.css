@@ -1,0 +1,26 @@
+
+
+
+
+body {
+    background-color: powderblue;
+}
+#Header{
+    background-color: azure;
+}
+#name{
+    color: forestgreen;
+    font-size: xxx-large;
+    font-family: "American Typewriter", sans-serif;
+    text-align: left;
+    text-indent: 20px;
+}
+p {
+    color: darkblue;
+    text-align: center;
+}
+#logo img{
+    width: 15%;
+    float: right;
+    margin: auto 20px;
+}
