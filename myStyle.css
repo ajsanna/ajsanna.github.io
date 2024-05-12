@@ -13,63 +13,77 @@ body {
     left: 20px;
 }
 
+
 .pfp-container
 {
+
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
     background-color: seagreen;
     float: left;
     min-height: 1px;
-    width: 375px;
-    height: 510px;
+    width: 26%;
+    height: 50%;
+    z-index: 1;
 }
 
-.PFP{
+#PFP{
     border: 5px solid #555;
     border-radius: 10px;
-    width: 290px;
-    position: absolute;
     margin-left: 38px;
+    width: 75%;
+
 
 }
-.Contact-Info{
-    position: absolute;
+
+#git img{
+    border: 1px solid #555;
+    width: 18%;
+
     top: 630px;
-}
-.git img{
-    border: 1px solid #555;
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    margin-left: 30px ;
-    border-radius: 10px;
+
+    margin-left: 20px;
+    border-radius: 20px;
 
 }
-.in img{
+#in img{
     border: 1px solid #555;
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    margin-left: 110px ;
-    border-radius: 10px;
+    width: 18%;
+
+
+    margin-left: 10px;
+    top: 630px;
+    border-radius: 20px;
 
 }
-.ig img{
+#ig img{
     border: 1px solid #555;
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    margin-left: 190px ;
-    border-radius: 10px;
+    width: 18%;
+
+    margin-left: 15px;
+    top: 630px;
+    border-radius: 20px;
 
 }
+#wrap{
+    min-width: 600px;
+}
 
-.mail img{
+#mail img{
     border: 1px solid #555;
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    margin-left: 270px ;
+    width: 18%;
+    margin-left: 15px;
+    border-radius: 20px;
+
+}
+.Project{
+    color: black;
+    background-color: azure;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: left;
+    text-indent: 5px;
     border-radius: 10px;
 
 }
@@ -80,14 +94,61 @@ body {
     font-family: "American Typewriter", sans-serif;
     text-align: left;
     text-indent: 20px;
-    
+    z-index: 1;
 }
-p {
-    color: darkblue;
+.AboutMe
+{
+    margin-top: 70px;
+    background-color: seagreen;
+    min-height: 1px;
+    width: 30%;
+    z-index: 1;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.AboutMe p{
+    margin-left: 5px;
+    margin-right: 5px;
     text-align: center;
+    font-family: serif;
+    color: azure;
+    font-size: large;
 }
-#logo img{
-    width: 15%;
+#abtmehead
+{
+    color: azure;
+    font-family: "American Typewriter", serif;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.ProjectDisplay{
+    background-color: seagreen;
     float: right;
+    width: 60%;
+    border-radius: 10px;
+    margin-right: 50px;
+    text-align: center;
+    z-index: 0;
+    position: absolute;
+    right: 20px;
+
+}
+#ProjectHeading
+{
+    font-family: "American Typewriter", serif;
+    font-size: x-large;
+    color: azure;
+
+}
+
+#logo img{
+    z-index: 0;
+    width: 220px;
     margin: auto 20px;
+    position: absolute;
+    right: 20px;
+    border-radius: 10px;
+
+
 }
