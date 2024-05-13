@@ -10,65 +10,59 @@ body {
     background-color: azure;
     border-radius: 10px;
     top: 0;
-    right: 20px;
-    left: 20px;
+    margin-right: 1vw;
+    margin-left: 1vw;
 }
 
 
 .pfp-container
 {
-
+    text-align: center ;
     border-radius: 10px;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 3vw;
+    margin-top: 1vw;
     background-color: seagreen;
     float: left;
-    min-height: 1px;
-    width: 26%;
-    height: 50%;
-    z-index: 1;
+    width: 30vw;
+
 }
 
-#PFP{
-    border: 5px solid #555;
+.pfp-container img
+{
+    width:25vw;
     border-radius: 10px;
-    margin-left: 38px;
-    width: 75%;
-
-
+    border: .25vw solid azure;
 }
+
+
 .Descript{
-    margin-left: 2px;
-    font-family: Chalkboard, serif;
-    margin-right: 375px;
-    text-align: center;
+    margin-left: 1vw;
+    font-family: serif;
+    font-size: 1vw;
+    margin-right: 25vw;
+    text-align: left;
 }
 
 #git img{
+    margin-right: 1.5vw;
     border: 1px solid #555;
-    width: 18%;
-
+    width: 5vw;
     top: 630px;
-
-    margin-left: 20px;
     border-radius: 20px;
 
 }
 #in img{
+    margin-right: 1.5vw;
     border: 1px solid #555;
-    width: 18%;
-
-
-    margin-left: 10px;
+    width: 5vw;
     top: 630px;
     border-radius: 20px;
 
 }
 #ig img{
+    margin-right: 1.5vw;
     border: 1px solid #555;
-    width: 18%;
-
-    margin-left: 15px;
+    width: 5vw;
     top: 630px;
     border-radius: 20px;
 
@@ -79,39 +73,41 @@ body {
 
 #mail img{
     border: 1px solid #555;
-    width: 18%;
-    margin-left: 15px;
+    width: 5vw;
+    top: 630px;
     border-radius: 20px;
+
 
 }
 .Project{
     color: black;
     background-color: azure;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 1vw;
+    margin-left: 1vw;
     text-align: left;
-    text-indent: 5px;
+    text-indent: 1vw;
     border-radius: 10px;
-
 }
 
 #name{
     color: forestgreen;
-    font-size: xxx-large;
+    font-size: 4vw;
     font-family: "American Typewriter", sans-serif;
     text-align: left;
     text-indent: 20px;
     z-index: 1;
+
 }
-.title{
+.title h1{
     background-color: cadetblue;
-    width: 50%;
+    width: 35vw;
+    margin-bottom: .01vw;
     border-radius: 10px 0 10px 0;
     text-align: center;
-    font-size: small;
+    font-size: 2vw;
 }
 .link{
-    width: 10%;
+    width: 1vw;
     right: 20px;
     padding-top: 20px;
     position:absolute;
@@ -141,6 +137,7 @@ body {
     font-family: "Roboto Light", serif;
 }
 
+
 #abtmehead
 {
     color: azure;
@@ -152,30 +149,28 @@ body {
 .ProjectDisplay{
     background-color: seagreen;
     float: right;
-    width: 60%;
+    width: 60vw;
     border-radius: 10px;
-    margin-right: 50px;
+    margin-right: 2vw;
     text-align: center;
-    z-index: 0;
-    position: absolute;
-    right: 20px;
 
 }
 #ProjectHeading
 {
     font-family: "American Typewriter", serif;
-    font-size: x-large;
+    font-size: 3vw;
     color: azure;
 
 }
 
 #logo img{
+
+    float: right;
     z-index: 0;
-    width: 220px;
-    margin: auto 20px;
-    position: absolute;
-    right: 20px;
+    width: 15vw;
+    margin: auto 3vw;
     border-radius: 10px;
+    position:relative;
 
 
 }
