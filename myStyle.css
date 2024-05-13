@@ -36,6 +36,12 @@ body {
 
 
 }
+.Descript{
+    margin-left: 2px;
+    font-family: Chalkboard, serif;
+    margin-right: 375px;
+    text-align: center;
+}
 
 #git img{
     border: 1px solid #555;
@@ -96,6 +102,20 @@ body {
     text-indent: 20px;
     z-index: 1;
 }
+.title{
+    background-color: cadetblue;
+    width: 50%;
+    border-radius: 10px 0 10px 0;
+    text-align: center;
+    font-size: small;
+}
+.link{
+    width: 10%;
+    right: 20px;
+    padding-top: 20px;
+    position:absolute;
+    border-radius: 40px;
+}
 .AboutMe
 {
     margin-top: 70px;
@@ -114,6 +134,12 @@ body {
     color: azure;
     font-size: large;
 }
+#project_title
+{
+    font-size: medium;
+    font-family: "Roboto Light", serif;
+}
+
 #abtmehead
 {
     color: azure;
