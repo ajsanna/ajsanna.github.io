@@ -536,12 +536,13 @@ h5
 
 #topSkills
 {
-	position:absolute;
-	background-color: #7a91c8;
+	position:relative;
+	border: solid #7a91c8 .75vw;
+	background-color: #b5d6a9;
 	border-radius: 12vw;
 	width: 96.5vw;
 	height: 12vw;
-	margin-bottom: 10vw;
+	margin-bottom: 0vw;
 }
 #Experience
 {
@@ -550,7 +551,7 @@ h5
 	border-radius: 3vw;
 	width: 96.5vw;
 	height: 50vw;
-	margin-top: 12vw;
+	margin-top: .15vw;
 	margin-bottom: 13vw;
 }
 
