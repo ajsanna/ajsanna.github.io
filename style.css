@@ -69,7 +69,7 @@ body{
 	height: 50vw;
 	position: absolute;
 	right:3.75vw;
-	top: 20vw;
+	top: 23vw;
 	border-radius:2vw;
 	border: 3;
 	overflow: hidden;
@@ -273,7 +273,7 @@ body{
 #Skill
 {
 	position: relative;
-	margin-left: 4vw;
+	margin-left: 4.5vw;
 	margin-top:1.5vw;
 	width: 10vw;
 	height: 10vw;
@@ -293,7 +293,7 @@ body{
 {
 	border-radius: 3vw;
 	position: absolute;
-	width:93vw;
+	width:96.5vw;
 	background-color: darkkhaki;
 	top: 290vw;
 }
@@ -401,7 +401,7 @@ h5
 
 #ProjectEntry
 {
-	padding-bottom: 1vw;
+	padding-bottom: 5vw;
 	background-color:antiquewhite;
 	position:relative;
 	margin-left: 2vw;
@@ -539,7 +539,7 @@ h5
 	position:absolute;
 	background-color: #7a91c8;
 	border-radius: 12vw;
-	width: 93vw;
+	width: 96.5vw;
 	height: 12vw;
 	margin-bottom: 13vw;
 }
@@ -548,7 +548,7 @@ h5
 	position:absolute;
 	background-color: #7a91c8;
 	border-radius: 3vw;
-	width: 93vw;
+	width: 96.5vw;
 	height: 50vw;
 	margin-top: 10vw;
 	margin-bottom: 13vw;
@@ -647,7 +647,7 @@ h5
 #mySkills h3
 {
 	position:relative;
-	left: 8vw;
+	left: 12vw;
 	margin-bottom: 3vw;
 	font-size: 8vw;
 	color: darkolivegreen;
