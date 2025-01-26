@@ -1,193 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta content='width=device-width, initial-scale=1' name='viewport'/>
-        <link rel="stylesheet" href="myStyle.css">
-        <link rel="icon" type="image/x-icon" href="logo_image.png">
-        <title>Alexander Sanna's Personal Website</title>
-    </head>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Alexander Sanna</title>
+	<link rel="icon" type="image/x-icon" href="leaf.PNG">
+</head>
+
+<body>
+<h1>
+	Alexander Sanna 
+	<a href="https://github.com/ajsanna">
+	<img id="porsche" src="porsche.PNG" alt="Porsche">
+	  </a>
+
+	<hr id="upperline">
+</h1>
+
+<h2>
+	<img id="PFP" src="Alex7.JPEG" alt="Alex">
+	<br>
+	<button class="button" id="MyBlog"><span>My Projects</span></button>
+	<button class="button" id="Projects"><span>Skills & Experience</span></button>
+	<button class="button" id="MyLinkedIn"><span>More About Me</span></button>
+	<button class="button" id="BF"><span>Contact</span></button>
+	<img id="line" src="lines.png" alt="Line Break"
+
+</h2>
 
 
-    <body>
-        <header>
+<section id="AboutMe">
+	<br>
+	<a href="https://www.instagram.com/alexandrrjoseph/?utm_source=ig_web_button_share_sheet">
+		<img id="insta" src="instagram.png" alt="ig">
+	</a>
+	<a href="https://github.com/ajsanna">
+			<img id="github" src="github.png" alt="git">
+	</a>
+	<a href="https://www.linkedin.com/in/alex-sanna-428804215/">
+		<img id="Linked" src="LinkedIN.png" alt="linkedIn">
+	</a>
 
-            <div class="parent.div">
-                <div class="Header">
-                    <br>
-                    <a href="https://github.com/ajsanna" id = "logo" target = "blank_">
-                    <img alt="LOGO" src="logo_image.png">
-                    </a>
-                    <h1 id="name">Alexander Sanna </h1>
-                    <br>
-                </div>
-            </div>
-        </header>
+	<h3>About Me</h3>
+	<p>I am currently in my fourth and final year at Cal Poly Pomona for my undergraduate degree in computer science. 
+		 A few of my favorite hobbies
+		include traveling, off-roading, backpacking, catching a movie and anything that involves live music.  
+		I aspire to bring positive change to the world through technological innovation throughout my career.
+	</p>
+	<div class="ImageFrame">
+		<div id="ImageContainer">
+			<img src="Alex1.jpeg" alt="alex">
+			<img src="Alex2.jpeg" alt="alex">
+			<img src="Alex3.jpeg" alt="alex">
+			<img src="Alex4.jpeg" alt="alex">
+			<img src="Alex5.jpeg" alt="alex">
+			<img src="Alex6.jpeg" alt="alex">
+		</div>
+	</div>
+	<hr id="upperline">
 
+	
 
-        <div>
-            <br><br>
-            <div class="pfp-container">
+</section>
 
-                <br>
-                <img alt="PFP" src="pfp2.JPG">
-                <br><br>
-
-                    <a href="https://github.com/ajsanna" id="git" target = "blank_">
-                        <img alt="GITHUB" src="git.png">
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/alex-sanna-428804215" id="in" target = "blank_">
-                        <img alt="LinkedIn" src="in.png">
-                    </a>
-
-                    <a href="https://www.instagram.com/alexandrrjoseph?igsh=MzRlODBiNWFlZA==" id="ig" target = "blank_">
-                        <img alt="Instagram" src="ig.png">
-                    </a>
-
-                    <a href="mailto:ajsanna@yahoo.com" id="mail" target = "blank_">
-                        <img alt="Mail" src="mail.jpg">
-                    </a>
-                <br><br>
-
-            </div>
-
-            <div class="ProjectDisplay">
-                <p id = "ProjectHeading">Check Out Some of My Latest Projects!</p>
-                <hr>
-                <div class="Project">
-                    <div class="title">
-                        <a href="https://github.com/SigsFig/donkey-car"  target = "blank_">
-                        <img class = "link" src="linkto.png" alt="Learn More">
-                        </a>
-                        <h1>Autonomous Driving Software</h1>
-                        <p class="date">Spring 2024</p>
-                    </div>
-                    <p class="Descript">Working with the Cal Poly Pomona AI research lab as a project lead, I oversaw
-                        the development of autonomous driving software, built for lane detection purposes. My team
-                        and I constructed a convolutional neural network yielding results with a 93% overall
-                        accuracy in test cases. Our model was capable of avoiding obstacles and
-                        keeping our remote test car within designated lane markers consistently for 300+ laps,
-                        completely free of user input.</p>
+<section id="mySkills">
+	<h3>My Skill Showcase</h3>
+	<div id="topSkills">
+		<img id="Skill" src="gitVC.png" alt="Tensorflow">
+		<img id="Skill" src="TF.png" alt="Tensorflow">
+		<img id="Skill" src="JAVA.png" alt="java">
+		<img id="Skill" src="C.png" alt="java">
+		<img id="Skill" src="postgresql.png" alt="java">
+		<img id="Skill" src="Mongo.png" alt="java">
 
 
-                </div>
-                <div class="Project">
-                    <div class="title">
-                        <a href="https://github.com/ajsanna/ScratchBuiltSearchEngine"  target = "blank_">
-                            <img class = "link" src="linkto.png" alt="Learn More">
-                        </a>
-                        <h1>Scratch Built Search Engine</h1>
-                        <p class="date">Spring 2024</p>
-                    </div>
-                    <p class="Descript">Hand built Recommendation System built utilizing beautifulSoup
-                        library, pymongo database functionality and NLTK tokenization & stemming functions.
-                        The final product is a search engine capable of locating, crawling, and parsing
-                        the CPP college of Civil Engineering Faculty page, storing found
-                        information in a MONGODB database, querying said database and performing TF-IDF / Cosine
-                        Similarity Calculations to produce a ranked list for results.</p>
+	</div>
+	<br>
+	<div id="Experience">
+		<div id="Work">
+			<p id="SkillTitle">Work Experience</p>
+			<div id="Job">
+				<p style="font-style: italic;">Cal Poly Pomona AIoT Lab</p>
+				<p>ML Research Project Lead</p>
+				<p>November 2023 - Present</p>
+			</div>
+			<div id="Job">
+				<p style="font-style: italic;">TorqLink LLC</p>
+				<p>Software Development Intern</p>
+				<p>April 2024 - August 2024</p>
+			</div>
+			<div id="Job">
+				<p style="font-style: italic;">San Jose Unified School District</p>
+				<p>Web Development Intern</p>
+				<p>May 2023 - January 2024</p>
+			</div>
+			</div>
 
-                </div>
-                <div class="Project">
-                    <div class="title">
-                        <a href="https://github.com/ajsanna/Beginner-Projects/tree/main/CS3650/Twitter%20Project"  target = "blank_">
-                            <img class = "link" src="linkto.png" alt="Learn More">
-                        </a>
-                        <h1>Mini Social Media App</h1>
-                        <p class="date">Winter 2023</p>
-                    </div>
-                    <p class="Descript">This is an implementation of a very rudimentary social media platform
-                        supporting "following", "posting", "liking", and auto updating feed. The User Interface
-                        has an admin view, as well as a user view. The User View allows for multiple user's to have views open at
-                        once, and if any action is taken, all user view's update automatically. This project implements
-                        Object Oriented Programming techniques such as Polymorphism, inheritance and abstraction. </p>
-                </div>
-                <div class="Project">
-                    <div class="title">
-                        <a href="https://github.com/ajsanna/Beginner-Projects/tree/main/CS4210/Assignment%203"  target = "blank_">
-                            <img class = "link" src="linkto.png" alt="Learn More">
-                        </a>
-                        <h1>Emotion Detection Neural Network</h1>
-                        <p class="date">Fall 2023</p>
-                    </div>
-                    <p class="Descript">Utilizing a convolutional neural network, this program is capable of receiving
-                        a picture of a human, and predicting with 75% accuracy what emotion is being portrayed
-                        in said image. The machine learning model is trained with a set of 20,000 images for 100 epoch's
-                        at a learning rate of .01. By the end of training, the test accuracy peaks at a 76%. This model came in
-                        third place in a university organized online machine learning competition.</p>
-                </div>
-                <div class="Project">
-                    <div class="title">
-                        <a href="https://github.com/ajsanna/Beginner-Projects/tree/main/CS3010/Assignment%203"  target = "blank_">
-                            <img class = "link" src="linkto.png" alt="Learn More">
-                        </a>
-                        <h1>Numerical Method Implementations</h1>
-                        <p class="date">Summer 2023</p>
-                    </div>
-                    <p class="Descript">Terminal based application designed to provide basic functionality for
-                        numerical methods such as Bisection, False Position, Newton-Raphson and Secant. The main
-                        program runs off of a driver that provides terminal user input to solve equations using the methods
-                        mentioned above. If no solution is found, the program has an upper limit, preventing any infinite
-                        loops from causing issues. This program is also capable of storing error values as it
-                        traverses to find a solution</p>
-                </div>
-                <div class="Project">
-                    <div class="title">
-                        <a href="https://github.com/ajsanna/Beginner-Projects/tree/main/CS4650/Assignment%203"  target = "blank_">
-                            <img class = "link" src="linkto.png" alt="Learn More">
-                        </a>
-                        <h1>Accident Prediction Model</h1>
-                        <p class="date">Spring 2023</p>
+			<div id="Classes">
+				<p id="SkillTitle">Relevant Coursework</p>
+				
+				
+				<div id="Course"><p>CS4800 - Software Engineering</p></div>
+				<div id="Course"><p>CS4750 - Mobile App Dev</p></div>
+				<div id="Course"><p>CS4650 - Big Data Analytics</p></div>
+				<div id="Course"><p>CS4250 - Internet Scraping</p></div>
+				<div id="Course"><p>CS4210 - Machine Learning</p></div>
+				<div id="Course"><p>CS4200 - Artificial Intelligence</p></div>
+	
+			</div>
+	</div>
+	
+	
 
-                    </div>
-                    <p class="Descript">Demonstrated here is a very basic implementation of logistic regression,
-                        utilizing the SciKit-Learn library and pandas visualization methods. The model is capable of
-                        looking through data provided regarding work place accidents and find relationships between
-                        parameters and accident rates. At the end of the regression, the findings are presented in
-                        research poster format. This was my very first experience with experimental
-                        data science and analytics.</p>
-                </div>
-                <div class="Project">
-                    <div class="title">
-                        <a href="https://github.com/ajsanna/Beginner-Projects/tree/main/CS2400/Project%205"  target = "blank_">
-                            <img class = "link" src="linkto.png" alt="Learn More">
-                        </a>
-                        <h1>Flight Shortest Path Calculator</h1>
-                        <p class="date">Fall/Winter 2022</p>
-
-                    </div>
-                    <p class="Descript">Intricate implementation of a weighted, directional graph data structure.
-                        This program takes airport data in via a CSV file with connections between airports and
-                        correlated distances. The terminal UI allows clients to find the shortest path between airports
-                        thanks to an implementation of Dijstra's algorithm. New connection insertion is also supported
-                        through the UI, as well as airport information queries. The main Graph data structure stores all
-                        of this data.</p>
-                </div>
-
-                <br>
-
-            </div>
+</section>
 
 
 
-            <div class="AboutMe">
-                <br>
-                <h1 id="abtmehead">More About Me</h1>
-                <hr>
-                <p> Hello and welcome to my website! I am currently attending California State
-                    Polytechnic University - Pomona, in persuit of an undergraduate degree
-                    in Computer Science with a minor in data science. Over the course of my time in
-                    school, I have gained experience working with machine learning, numerical methods,
-                    data structures, search engines and more. </p>
+<section id="myblog">
 
-                <p>You're more than welcome to explore my page and github repo's! With any questions or
-                    concerns, feel free to contact ajsanna@yahoo.com</p>
-                <br>
-            </div>
-            
+	<h3 style="color:antiquewhite">My Personal Projects</h3>
+	<div id="LabelContainers">
+		<div id="ML" style="background-color: #6b8961;">
+			<p id="label">Machine Learning</p>
+		</div>
+		<div id="Other" style="background-color: #c2a7ca;">
+			<p id="label">Other</p>
+		</div>
+		<div id="AppDev" style="background-color: #7a91c8;">
+			<p id="label">App Development</p>
+		</div>
+		<div id="JavaP" style="background-color: #c4d6b7;">
+			<p id="label">Java Programs</p>
+		</div>
+	</div>
+	
+	
+	<div id="ProjectEntry" style="	border: 1.5vw solid #6b8961; border-style: ridge;">
+		<a href="https://github.com/SigsFig/donkey-car">
+			<img src="linkto.png" alt="LINK" id="link"> 
+		</a>
+		
+		<p id="ProjectTitle">Autonomous Driving Software</p>
+		<p id="detail">November 2023 - Present | CPP AIoT Research Lab</p>
+		<hr>
+		<div id="PimageFrame" style="background-color: #6b8961;">
+			<div id="ImageContainer2">
+				<img src="Alex1.jpeg" alt="alex">
+				<img src="Alex2.jpeg" alt="alex">
+				<img src="Alex3.jpeg" alt="alex">
+				<img src="Alex4.jpeg" alt="alex">
+				<img src="Alex5.jpeg" alt="alex">
+				<img src="Alex6.jpeg" alt="alex">
+			</div>
+		</div>
+			
+		<p id="desc">Working with the Cal Poly Pomona AI research lab as a project lead, 
+			I oversaw the development of autonomous driving software, built for lane detection purposes.
+			 My team and I constructed a convolutional neural network yielding results with a 93% overall accuracy in test cases. 
+			 Our model was capable of avoiding obstacles and keeping our remote test car within designated lane markers consistently
+			for 300+ laps, completely free of user input.</p>
 
-        </div>
-        <br><br><br>
+	</div>
+	<div id="ProjectEntry" style="	border: 1.5vw solid #c2a7ca; border-style: ridge;">
+		<a href="https://github.com/ajsanna/ScratchBuiltSearchEngine">
+			<img src="linkto.png" alt="LINK" id="link"> 
+		</a>
+		
+		<p id="ProjectTitle">Scratch Built Search Engine</p>
+		<p id="detail">Spring 2024 | CS4250 Web Search & Recommender Systems</p>
+		<hr>
+		<div id="PimageFrame" style="background-color: #c2a7ca;left:5vw;">
+			<div id="ImageContainer3">
+				<img src="Alex1.jpeg" alt="alex">
+				<img src="Alex2.jpeg" alt="alex">
+				<img src="Alex3.jpeg" alt="alex">
+				<img src="Alex4.jpeg" alt="alex">
+				<img src="Alex5.jpeg" alt="alex">
+				<img src="Alex6.jpeg" alt="alex">
+			</div>
+		</div>
+			
+		<p id="desc" style="margin-right:2vw; margin-left:35vw; text-align: center;">Hand built Recommendation System built utilizing beautifulSoup library, 
+			pymongo database functionality and NLTK tokenization & stemming functions. The final 
+			product is a search engine capable of locating, crawling, and parsing the CPP college 
+			of Civil Engineering Faculty page, storing found information in a MONGODB database, 
+			querying said database and performing TF-IDF / Cosine Similarity Calculations to produce 
+			a ranked list for results.</p>
 
-    </body>
+	</div>
+	<div id="ProjectEntry" style="	border: 1.5vw solid #7a91c8; border-style: ridge;">
+		<a href="https://github.com/ajsanna/Beginner-Projects/tree/main/CS3650/Twitter%20Project">
+			<img src="linkto.png" alt="LINK" id="link"> 
+		</a>
+		
+		<p id="ProjectTitle">Mini Social Media App
+		</p>
+		<p id="detail">Winter 2023 | CS3560 Object Oriented Programming</p>
+		<hr>
+		<div id="PimageFrame" style="background-color: #7a91c8;">
+			<div id="ImageContainer4">
+				<img src="Alex1.jpeg" alt="alex">
+				<img src="Alex2.jpeg" alt="alex">
+				<img src="Alex3.jpeg" alt="alex">
+				<img src="Alex4.jpeg" alt="alex">
+				<img src="Alex5.jpeg" alt="alex">
+				<img src="Alex6.jpeg" alt="alex">
+			</div>
+		</div>
+			
+		<p id="desc" style="text-align: center;">This is an 
+			implementation of a very rudimentary social media platform 
+			supporting "following", "posting", "liking", and auto 
+			updating feed. The User Interface has an admin view, as 
+			well as a user view. The User View allows for multiple user's
+			 to have views open at once, and if any action is taken, 
+			 all user view's update automatically. This project 
+			 implements Object Oriented Programming techniques such 
+			 as Polymorphism, inheritance and abstraction.
 
+		</p>
+
+	</div>
+	<div id="ProjectEntry" style="	border: 1.5vw solid #6b8961; border-style: ridge;">
+		<a href="https://github.com/ajsanna/Beginner-Projects/tree/main/CS4210/Assignment%203">
+			<img src="linkto.png" alt="LINK" id="link"> 
+		</a>
+		
+		<p id="ProjectTitle">Emotion Detection Neural Network
+		</p>
+		<p id="detail">Fall 2023 | CS4210 Machine Learning and its Applications</p>
+		<hr>
+		<div id="PimageFrame" style="background-color: #6b8961;left:5vw;">
+			<div id="ImageContainer5">
+				<img src="Alex1.jpeg" alt="alex">
+				<img src="Alex2.jpeg" alt="alex">
+				<img src="Alex3.jpeg" alt="alex">
+				<img src="Alex4.jpeg" alt="alex">
+				<img src="Alex5.jpeg" alt="alex">
+				<img src="Alex6.jpeg" alt="alex">
+			</div>
+		</div>
+			
+		<p id="desc" style="margin-right:2vw; margin-left:35vw; text-align: center;">
+			Utilizing a convolutional neural network, this program 
+			is capable of receiving a picture of a human, and 
+			predicting with 75% accuracy what emotion is being
+			 portrayed in said image. The machine learning model 
+			 is trained with a set of 20,000 images for 100 epoch's
+			  at a learning rate of .01. By the end of training, the 
+			  test accuracy peaks at a 76%. This model came in third 
+			  place in a university organized online machine learning 
+			  competition.
+
+		</p>
+
+	</div>
+
+	<div id="ProjectEntry" style="	border: 1.5vw solid #c4d6b7; border-style: ridge;">
+		<a href="https://github.com/ajsanna/Beginner-Projects/tree/main/CS3010/Assignment%203">
+			<img src="linkto.png" alt="LINK" id="link"> 
+		</a>
+		
+		<p id="ProjectTitle">Numerical Method Implementations
+
+		</p>
+		<p id="detail">Summer 2023 | CS3010 Numerical Methods</p>
+		<hr>
+		<div id="PimageFrame" style="background-color: #c4d6b7;">
+			<div id="ImageContainer6">
+				<img src="Alex1.jpeg" alt="alex">
+				<img src="Alex2.jpeg" alt="alex">
+				<img src="Alex3.jpeg" alt="alex">
+				<img src="Alex4.jpeg" alt="alex">
+				<img src="Alex5.jpeg" alt="alex">
+				<img src="Alex6.jpeg" alt="alex">
+			</div>
+		</div>
+			
+		<p id="desc" style=" text-align: center;">
+			Terminal based application designed to provide basic functionality for 
+			numerical methods such as Bisection, False Position, Newton-Raphson 
+			and Secant. The main program runs off of a driver that provides 
+			terminal user input to solve equations using the methods mentioned 
+			above. If no solution is found, the program has an upper limit, 
+			preventing any infinite loops from causing issues. This program is 
+			also capable of storing error values as it traverses to find a 
+			solution.
+
+		</p>
+
+	</div>
+	
+	
+	<br><br>
+	
+</section>
+
+
+
+
+<script src="firstProject.js"></script>
+</body>
 </html>
