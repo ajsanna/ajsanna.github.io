@@ -1,3 +1,10 @@
+/*
+* Personal Portfolio Website Styles
+* Author: Alexander Sanna
+* Description: Styling for portfolio website including animations and responsive design
+*/
+
+/* ===== Header and Title Styles ===== */
 h1 {
 	color: darkolivegreen;
 	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -517,11 +524,14 @@ h5
 }
 #LabelContainers
 {
-	position:relative;
-	border-radius: 3vw;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	gap: 1.5vw;
 	width: 93vw;
+	margin: 0 auto;
 	margin-bottom: 13vw;
-	padding-bottom: 1vw;
+	padding: 2vw;
 }
 
 #blogEntry
@@ -908,5 +918,30 @@ h5
 	cursor: pointer;
 	border: none;
 	border-radius: 3vw;
+}
+
+#ML, #Other, #AppDev, #JavaP {
+    animation: labels 5s infinite;
+    border: .5vw solid black;
+    border-radius: 5vw;
+    text-align: center;
+    width: 21vw;
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+#ML:hover, #Other:hover, #AppDev:hover, #JavaP:hover {
+    transform: translateY(-5px);
+}
+
+#label {
+    font-size: 2.5vw;
+    margin: 0;
+    padding: 1vw;
+    color: white;
+    font-weight: 500;
 }
 
