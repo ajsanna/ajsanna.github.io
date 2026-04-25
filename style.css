@@ -1,95 +1,267 @@
 /* Main CSS File for ajsanna.github.io */
 body{
-	background-color:  #CBD5C0;
+	background-color: #CBD5C0;
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-/* Styles for the Name Tag Header and PFP*/
+#Page {
+	width: min(1200px, 92vw);
+}
+
+#Hero {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	gap: 4vw;
+}
+
+#NameTag {
+	position: relative;
+	width: min(460px, 42vw);
+	padding-top: 70px;
+}
+
+/* Name is designed to overlap the image */
 #NameTag h1 {
-	font-size: 5vw;
+	position: absolute;
+	top: -30px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	font-size: clamp(48px, 6vw, 116px);
 	color: #333;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, serif;
-	margin-top: 10vw;
 	text-align: center;
-	z-index: 1;
+	line-height: 0.9;
+	margin: 0;
+	z-index: 2;
 }
-#MainPFP
-{
+
+#NameTag h1 span {
+	display: inline-block;
+	margin-left: 170px;
+}
+
+#MainPFP {
+	display: block;
 	transform: rotate(-10deg);
-  	transform-origin: top left;
-	position: absolute;
-	width: 20vw;
-	top: 18vw;
-	left: 36vw;
-	z-index: -1;          /* lower values go to the back */
-}
-#leafLogo
-{
-	transform: rotate(10deg);
-  	transform-origin: top left;
-	position: absolute;
-	top: 2vw;
-	left:3vw;
-}
-
-#Navigation{
-	font-size: 2vw;
-	border-right: 2px solid black;
-	text-align: left;
-	margin: 1.5vw;
-	/*background-color: gray;*/
-	position: absolute;
-	top:0vw;
-	left:0vw;
-	width: 12vw;
-	height: 50vw;
-}
-#Navigation a{
-  text-decoration: none;   /* removes underline */
-  color: inherit;          /* inherits color from parent element */
-
-}
-
-#Navigation img{
-	height: 4vw;
-	width: 4vw;
-	/*background-color: white;*/
-}
-
-#Resume{
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 3vw;
-	color: #CBD5C0;
-	border-right: 2px solid black;
-	text-align: center;
-	margin: 0vw;
-	background-color: black;
-	position: absolute;
-	top:0vw;
-	right:0vw;
-	width: 4vw;
-	height: 48vw;
-}
-#Resume a{
-  text-decoration: none;   /* removes underline */
-  color: inherit;          /* inherits color from parent element */  
+	transform-origin: center;
+	width: 100%;
+	max-width: 460px;
+	position: relative;
+	z-index: 1;
 }
 
 #Introduction{
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, serif;
-	font-size: 1vw;
+	font-size: clamp(20px, 2vw, 28px);
 	text-align: left;
-	margin: 1.5vw;
-	position: absolute;
-	top:25vw;
-	right:17.5vw;
-	width: 20vw;
-	height: 24vw;
+	width: min(560px, 42vw);
+	margin-bottom: 18px;
+	position: relative;
+	top: 95px;
 }
-#Button1 button{
-	font-size: 1.5vw;
+
+#Affiliations {
+	position: absolute;
+	left: 68px;
+	top: -200px;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+#Affiliations a {
+	text-decoration: none;
+}
+
+.AffiliationItem {
+	height: clamp(62px, 4.8vw, 88px);
+	width: clamp(62px, 4.8vw, 88px);
+	background-color: #a8b59a;
+	border: 1px solid #9cab8f;
+	border-radius: 999px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 14px;
+	overflow: hidden;
+}
+
+#Affiliations img {
+	height: 100%;
+	width: 100%;
+	display: block;
+	object-fit: contain;
+}
+
+.AffiliationItem:nth-child(2) img {
+	height: 165%;
+	width: 165%;
+	object-fit: cover;
+}
+
+.AffiliationItem:nth-child(3) img {
+	height: 78%;
+	width: 78%;
+}
+
+.AffiliationItem:nth-child(4) img {
+	height: 185%;
+	width: 185%;
+	object-fit: cover;
+}
+
+#Introduction h1 {
+	margin: 0 0 22px 0;
+	line-height: 1.1;
+}
+
+#Introduction p {
+	font-size: clamp(18px, 1.35vw, 26px);
+	line-height: 1.25;
+	margin: 0 0 26px 0;
+}
+
+#ButtonRow {
+	display: flex;
+	gap: 14px;
+}
+
+#ButtonRow button{
+	font-size: clamp(18px, 1.35vw, 30px);
 	background-color: black;
 	color: #CBD5C0;
 	border: none;
-	padding: 1vw 1vw;
+	padding: 0.9em 1.1em;
 	cursor: pointer;
+}
+
+@media (max-width: 920px) {
+	body {
+		align-items: flex-start;
+		padding: 24px 0;
+	}
+
+	#Page {
+		width: min(680px, 92vw);
+	}
+
+	#Hero {
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+
+	#NameTag {
+		width: min(480px, 88vw);
+		padding-top: 58px;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 10px;
+	}
+
+	#NameTag h1 {
+		top: -18px;
+		font-size: clamp(56px, 14vw, 96px);
+	}
+
+	#NameTag h1 span {
+		margin-left: 0;
+	}
+
+	#MainPFP {
+		max-width: min(440px, 84vw);
+		margin: 0 auto;
+		transform: none;
+	}
+
+	#Introduction {
+		width: min(620px, 92vw);
+		margin: 0;
+		padding-top: 0;
+		top: 0;
+	}
+
+	#Affiliations {
+		position: static;
+		margin: 10px 0 14px 0;
+		flex-wrap: wrap;
+		justify-content: center;
+		left: auto;
+		z-index: auto;
+	}
+
+	.AffiliationItem {
+		height: 74px;
+		width: 74px;
+		padding: 12px;
+	}
+
+	#ButtonRow {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 10px;
+	}
+
+	#ButtonRow a {
+		display: block;
+	}
+
+	#ButtonRow button {
+		width: 100%;
+	}
+}
+
+@media (max-width: 620px) {
+	#NameTag {
+		padding-top: 48px;
+	}
+
+	#NameTag h1 {
+		font-size: clamp(46px, 15vw, 72px);
+		line-height: 0.92;
+	}
+
+	#MainPFP {
+		max-width: min(390px, 86vw);
+		margin: 0 auto;
+		transform: none;
+	}
+
+	#NameTag {
+		margin-bottom: 8px;
+	}
+
+	#Introduction h1 {
+		font-size: clamp(34px, 11vw, 56px);
+	}
+
+	#Introduction p {
+		font-size: clamp(18px, 5.2vw, 24px);
+	}
+
+	#Affiliations {
+		justify-content: center;
+		gap: 10px;
+		margin: 8px 0 12px 0;
+	}
+
+	.AffiliationItem {
+		height: 64px;
+		width: 64px;
+		padding: 10px;
+	}
+
+	#ButtonRow {
+		grid-template-columns: 1fr;
+	}
+
+	#ButtonRow button {
+		font-size: clamp(20px, 6vw, 28px);
+	}
 }
